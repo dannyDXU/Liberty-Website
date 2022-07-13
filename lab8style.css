@@ -6,7 +6,7 @@ body{font-family: Copperplate, "Copperplate Gothic Light",fantasy;}
 
 header {font-size: calc(8px + 2vw); 
         text-align: center; 
-        background-color: #8D8741;
+        background-color: #ffd800;
 	    border-bottom: dotted black; 
         padding: 20px 0;
 }
