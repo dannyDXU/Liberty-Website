@@ -1,0 +1,18 @@
+* {margin:0; 
+    padding:0; 
+    box-sizing: border-box;}
+ 
+ body{
+    font-family: Future, sans-serif;}
+ 
+ header {
+    display: flex;
+    justify-content: start;
+    align-items:center;
+    margin-left: auto;
+    font-size: calc(8px + 2vw); 
+    text-align: center; 
+    background-color: #ffd800;
+    border-bottom: dotted black; 
+    padding: 20px 0;
+ }
