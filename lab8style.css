@@ -9,6 +9,14 @@ header {font-size: calc(8px + 2vw);
         background-color: #ffd800;
 	    border-bottom: dotted black; 
         padding: 20px 0;
+        display: flex;
+        justify-content: start;
+}
+
+websitename {
+    text-align: center; 
+    align-items: center;
+    background-color: #ffd800;
 }
 
 .row-body {float: left; 
