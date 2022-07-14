@@ -5,23 +5,16 @@
  body{font-family: Future, "arial";}
  
  header {
-    font-size: calc(8px + 2vw); 
-    background-color: #ffd800;
-	border-bottom: black; 
-    padding: 20px 0;
-    text-align: center;
-    font-family: Future, "arial";
-    
-    /*margin-left: auto;
-    align-items: center;
     display: flex;
     justify-content: start;
+    align-items:center;
+    margin-left: auto;
         font-size: calc(8px + 2vw); 
         
          text-align: center; 
          background-color: #ffd800;
          border-bottom: black; 
-    padding: 20px 0; */
+    padding: 20px 0;
  }
 
  h1 {
