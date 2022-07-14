@@ -8,7 +8,7 @@
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
-    background: var(--primary-color);
+    background: white;
 
 }
 .linker {
@@ -16,7 +16,7 @@
     margin: auto;
     text-align: center;
     padding-top: 50px;
-    background: var(--primary-color);
+    background: white;
 }
 .linker-col{
     flex-basis: 29%;
