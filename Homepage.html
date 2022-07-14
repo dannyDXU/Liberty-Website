@@ -9,21 +9,37 @@
           display: none;
         }
 
-        .myDIV:hover + .hide {
+        .myDIV:hover .hide{
           display: block;
-          color: #ffd800;
-          font-size: 30;
+          color: black;
+          font-size: 30px;
+          font-family: Future, sans-serif;
+          padding-left: 400px;
+          bottom: 500px;
+          position: absolute;
+          transition-duration: .3s;
         }
-        
+  
         .hide2 {
           display: none;
         } 
         
-        .myDIV2:hover + .hide {
+        .myDIV2:hover .hide2 {
           display: block;
-          color: #ffd800;
-          font-size: 30;
+          color: black;
+          font-size: 30px;
+          font-family: Future, sans-serif;
+          padding-left: 400px;
+          bottom: 500px;
+          position: absolute;
+          transition-duration: .3s;
         } 
+
+        .teamsIcon{
+            position: absolute;
+            left: 630px;
+            top: 230px;
+        }
         
     </style>
 </head>
@@ -44,23 +60,34 @@
     
         <p style="color: white">'</p>
         <Style>
-            h2 {color: #ffd800;
+            h2 {color:  rgb(130, 199, 251)
                 }
         </Style>
 
         <h2 style="padding-left: 550px">Welcome Danny</h2>
         <h2 style="padding-left: 440px">What resources are you looking for?</h2>
-        
-    <div class="myDIV">
-        
+       
+  <div class="myDIV">
         <a href="general.html">
-                <img src="general.png" width="600" height="270" alt="Company logo"
+                <img src="file:///Users/selinatran/Downloads/icons/general.png" width="600" height="270" alt="General Icon"
                 style="padding-left: 300px"/>
+                <p class="hide">
+                    <strong> General</strong>
+                </p>
         </a>
-        
     </div>
-    
-        <div class="hide"style="padding-left: 420px; position: absolute; bottom: 50px;" >General</div>
+
+    <div class="myDIV2">
+        <div class="teamsIcon">
+            <a href="teams.html">
+                <img src="file:///Users/selinatran/Downloads/icons/teams.png" width="400" height="270" alt="Teams Icon"
+                style="padding-left: 90px"/>
+                <p class="hide2">
+                    <strong> Teams</strong>
+                </p>
+            </a>
+        </div>
+    </div>
     
         
         <p style="color: white">'</p>
