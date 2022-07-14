@@ -109,8 +109,7 @@
     width: 300px;
   position: relative;
   background-color: #CDF3FF;
-  margin: 50px;
-  left: 20px;
+  margin: 20px;
   border-radius: 10px;
 }
 .square:hover {
@@ -137,8 +136,8 @@
     width: 300px;
   position: relative;
   background-color: #CDF3FF;
-  left: 390px;
-  bottom: 350px;
+  left: 340px;
+  bottom: 320px;
   border-radius: 10px;
 }
 
@@ -169,8 +168,8 @@
     width: 300px;
   position: relative;
   background-color: #CDF3FF;
-  left: 710px;
-  bottom: 650px;
+  left: 660px;
+  bottom: 620px;
   border-radius: 10px;
 }
 
@@ -199,8 +198,8 @@
     width: 300px;
   position: relative;
   background-color: #CDF3FF;
-  left: 1030px;
-  bottom: 950px;
+  left: 980px;
+  bottom: 920px;
   border-radius: 10px;
 }
 
