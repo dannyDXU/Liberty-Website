@@ -62,23 +62,20 @@
 #menu li a {
    color: black !important;
    text-decoration: none;
+   flex: 33.33%;
 }
 
 #menu li{
    display: inline;
    padding: 8px;
+   
 }
 
 .smt {
-   position: fixed; /* Set the navbar to fixed position */
    top: 170px; 
-   width: 98%; 
    display: flex;
-   justify-content: start;
    align-items:center;
 }
 
-header #menu{
-   margin-left: auto;
-}
+
 
