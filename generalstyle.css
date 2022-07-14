@@ -94,7 +94,7 @@
     font-family: Future, sans-serif;
  }
 
- .content2{
+.content2{
     display:none;
 }
 .content3{
@@ -110,7 +110,7 @@
   position: relative;
   background-color: #CDF3FF;
   margin: 50px;
-  left: 100px;
+  left: 20px;
   border-radius: 10px;
 }
 .square:hover {
@@ -129,13 +129,15 @@
     padding-top: 100px;
 }
 
-
+.square:hover .images{
+    display: none;
+}
 .square2 {
     height: 300px;
     width: 300px;
   position: relative;
   background-color: #CDF3FF;
-  left: 500px;
+  left: 390px;
   bottom: 350px;
   border-radius: 10px;
 }
@@ -153,9 +155,13 @@
     text-align: center;
     font-size: 20px;
     font-family: Future, sans-serif;
-    padding-top: 135px;
+    padding-top: 110px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.square2:hover .images2{
+    display: none;
 }
 
 .square3 {
@@ -163,7 +169,7 @@
     width: 300px;
   position: relative;
   background-color: #CDF3FF;
-  left: 850px;
+  left: 710px;
   bottom: 650px;
   border-radius: 10px;
 }
@@ -181,17 +187,19 @@
     text-align: center;
     font-size: 20px;
     font-family: Future, sans-serif;
-    padding-top: 156px;
+    padding-top: 135px;
     padding-left: 10px;
     padding-right: 10px;
 }
-
+.square3:hover .images3{
+    display: none;
+}
 .square4 {
     height: 300px;
     width: 300px;
   position: relative;
   background-color: #CDF3FF;
-  left: 1200px;
+  left: 1030px;
   bottom: 950px;
   border-radius: 10px;
 }
@@ -204,23 +212,26 @@
 
 .square4:hover .content5{
     display: block;
-    width: 100%;
-    height: 100%;
     text-align: center;
     font-size: 20px;
     font-family: Future, sans-serif;
-    padding-top: 156px;
+    padding-top: 135px;
     padding-left: 10px;
     padding-right: 10px;
+    width: 100%;
+    height: 100%;
 }
 
+.square4:hover .images4{
+    display: none;
+}
 .content{
     position: absolute;
     width: 100%;
     height: 100%;
     text-align: center;
     font-size: 35px;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 10px;
     padding-right: 10px;
     font-family: Future, sans-serif;
@@ -231,12 +242,23 @@
     height: 100%;
     text-align: center;
     font-size: 30px;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 10px;
     padding-right: 10px;
     font-family: Future, sans-serif;
 }
 
+.content7{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Future, sans-serif;
+}
 
 .button {
     color: black;
@@ -257,6 +279,7 @@
     transition-duration: .3s;
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
   }
+
   .button1{
     position: absolute;
     width: 100%;
@@ -268,4 +291,32 @@
     padding-left: 10px;
     padding-right: 10px;
     top: 65px;
+}
+.images{
+    display: block;
+    position: absolute;
+    align-items: center;
+    left: 65px;
+    top: 70px;
+}
+.images2{
+    display: block;
+    position: absolute;
+    align-items: center;
+    left: 70px;
+    top: 70px;
+}
+.images3{
+    display: block;
+    position: absolute;
+    align-items: center;
+    left: 80px;
+    top: 100px;
+}
+.images4{
+    display: block;
+    position: absolute;
+    align-items: center;
+    left: 85px;
+    top: 110px;
 }
