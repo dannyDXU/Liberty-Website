@@ -2,10 +2,14 @@
     padding:0; 
     box-sizing: border-box;}
  
- body{font-family: Helvetica, Arial, Sans-Serif;
-background-image: "b.png";
-background-repeat: no-repeat;
-background-size: 100% 100%;
+    body{
+       font-family: Helvetica, Arial, Sans-Serif;
+       background-image: "b.png";
+       background-repeat: no-repeat;
+       background-size: 100% 100%;
+       background-position: center;
+       background-attachment: fixed;
+       background-size: cover;     
 }
  
  header {
@@ -68,11 +72,13 @@ background-size: 100% 100%;
  
  
  footer {clear: both; 
-         background-color: #ffd800; 
-         text-align: center; 
-         padding: 5px;
-         font-size: calc(5px + 1vw);
-         bottom: 0;
+       background-color: #ffd800; 
+       text-align: center; 
+       padding: 5px;
+       font-size: calc(5px + 1vw);
+       position: fixed;
+       bottom: 0;
+       width: 100%;
 }
  
  footer p {padding: 5px; color: black;}
