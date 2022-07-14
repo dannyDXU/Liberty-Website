@@ -9,11 +9,10 @@
     justify-content: start;
     align-items:center;
     margin-left: auto;
-        font-size: calc(8px + 2vw); 
-        
-         text-align: center; 
-         background-color: #ffd800;
-         border-bottom: black; 
+    font-size: calc(8px + 2vw); 
+    text-align: center; 
+    background-color: #ffd800;
+    border-bottom: black; 
     padding: 20px 0;
  }
 
