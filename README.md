@@ -8,3 +8,6 @@ We pulled from our personal experiences as new team members this summer to compi
 The hub also contains an overview of the different teams at Liberty.
 This allows individuals to learn more about the technology and projects that other teams are working on. 
 It also lets new members quickly and easily familiarize themselves with the important information for their own team. 
+
+To open the site on a personal device:
+Download the code zip file and open the Homepage.html to automatically start at the homepage. 
