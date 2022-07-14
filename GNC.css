@@ -16,3 +16,69 @@
     border-bottom: dotted black; 
     padding: 20px 0;
  }
+
+ #description{
+   text-align: center; 
+   padding-top: 150px; 
+   padding-bottom: 150px;
+   background-color: #CDF3FF;
+ }
+
+.row {
+   display: flex;
+}
+
+.intern {
+   position: relative;
+    text-align: center;
+    color: black;
+   
+    flex: 33.33%;
+    
+   /* Add shadows to create the "card" effect */
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+ }
+ 
+ /* On mouse-over, add a deeper shadow */
+ .intern:hover {
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ }
+ 
+ /* Add some padding inside the card container */
+ .container {
+   padding: 2px 0px;
+ }
+
+ #T1 {
+   width: 500px;
+   height: 200px;
+   object-fit: none;
+   object-position: 50px 3px;
+   /* Numeric value */
+}
+
+
+#menu li a {
+   color: black !important;
+   text-decoration: none;
+}
+
+#menu li{
+   display: inline;
+   padding: 8px;
+}
+
+.smt {
+   position: fixed; /* Set the navbar to fixed position */
+   top: 170px; 
+   width: 98%; 
+   display: flex;
+   justify-content: start;
+   align-items:center;
+}
+
+header #menu{
+   margin-left: auto;
+}
+
